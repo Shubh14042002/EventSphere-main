@@ -1,0 +1,63 @@
+.header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: maroon;
+}
+
+.title {
+  color: white;
+  align-content: center;
+  justify-content: center;
+}
+
+.title h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 0 35px;
+  margin: 0;
+  width: 60px;
+  height:auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+  margin: 0;
+}
+
+.nav .list {
+  list-style-type: none;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 17px;
+}
+
+.nav li {
+  position: relative;
+  float: left;
+  display: block;
+  padding: 20px 40px;
+  margin: 0;
+  background-color: maroon;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+.nav li:hover {
+  cursor: pointer;
+  background-color: darkred;
+}

@@ -1,0 +1,35 @@
+/* event-card.module.css */
+
+.eventCard {
+  width: auto;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: scale 0.3s;
+}
+
+.eventCard:hover {
+  cursor: pointer;
+  scale: 1.05;
+}
+  
+.eventCard img {
+  width: 100%;
+  border-radius: 5px;
+  height: 200px;
+  object-fit: cover;
+}
+  
+.eventInfo {
+  padding: 10px;
+  color: black;
+}
+  
+.eventInfo h2 {
+  margin-top: 0;
+}
+
+.eventInfo p {
+  margin: 5px 0;
+  text-decoration: none;
+}

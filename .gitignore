@@ -1,0 +1,31 @@
+# Dependency directories
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Production build directory
+/dist
+
+# Optional: macOS system files
+.DS_Store
+
+# Optional: Windows system files
+Thumbs.db
+ehthumbs.db
+
+# Optional: VSCode directory
+.vscode/
+
+# Optional: Temporary files
+*.tmp
+*.swp
+*.swo
+.tmp/

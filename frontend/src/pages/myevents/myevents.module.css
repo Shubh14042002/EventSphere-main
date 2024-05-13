@@ -1,0 +1,47 @@
+/* myevents.module.css */
+
+.myevents {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+    
+.browse h1 {
+    padding-left: 30px;
+}
+  
+.browse .filter {
+    display: flex;
+    flex-direction: column;
+}
+  
+.input {
+    margin-right: 150px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 150px;
+    height: 20px;
+}
+  
+.topRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid black 1px;
+}
+  
+.eventlist {
+    width: 100%;
+    display: grid;
+    grid-gap: 3rem;
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+    justify-content: center;
+    padding: 15px 0 5px 0;
+    text-decoration: none;
+}
+
+.eventLink {
+    text-decoration: none;
+    color: black;
+}

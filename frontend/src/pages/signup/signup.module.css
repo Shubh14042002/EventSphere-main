@@ -1,0 +1,73 @@
+/* signup.module.css */
+
+.signup {
+    background-color: #00DBDE;
+    background-image: linear-gradient(270deg, #24abad 0%, #eb4fee 100%);
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signupContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+h1 {
+    margin-bottom: auto;
+    padding: 0 100px 50px 100px;
+    font-size: 40px;
+}
+  
+.formGroup {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px auto;
+    font-size: 18px;
+}
+
+select {
+    width: 85%;
+}
+
+.signupLink {
+    margin-bottom: 20px;
+    text-align: center;
+}
+  
+.loginLink a {
+    color: blue;
+}
+
+select {
+    width: 100%;
+    font-size: 18px;
+}
+
+.signupButton {
+    background-color: #077efd;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 50px;
+    border: none;
+    opacity: 0.9;
+    width: 100%;
+    padding: 10px;
+    transition: transform 0.3s, opacity 0.3s;
+    font-size: 16px;
+}
+
+.signupButton:hover {
+    transform: translateY(-3px);
+    opacity: 1;
+}

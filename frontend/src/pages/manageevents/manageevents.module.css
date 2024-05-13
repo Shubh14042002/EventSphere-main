@@ -1,0 +1,17 @@
+.myevents {
+    padding: 10px;
+    margin: 10px;
+    border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+.eventlist {
+    border-top: solid black 1px;
+    width: 100%;
+    display: grid;
+    grid-gap: 3rem;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    justify-content: center;
+    padding: 15px 0 5px 0;
+}
